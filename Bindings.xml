@@ -1,0 +1,5 @@
+<Bindings>
+	<Binding name="ZOD1" category="ZOD_UTIL_BINDS">
+		ZodsBindingTrainer:RunScript()
+	</Binding>
+</Bindings>

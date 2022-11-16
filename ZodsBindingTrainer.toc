@@ -1,0 +1,25 @@
+## Interface: 20504
+## Author: zooood
+## Title: Zods Binding Trainer
+## Version: v1.0
+## Notes: some notes
+## DefaultState: enabled
+## Dependencies:
+## OptionalDeps: 
+## X-Embeds: 
+## X-Curse-Project-ID: 6969696
+
+
+#@no-lib-strip@
+embeds.xml
+#@end-no-lib-strip@
+
+
+util.lua
+Init.lua
+action_bars.lua
+action_commands.lua
+action_mapping.lua
+gui.lua
+trainer.lua
+
