@@ -1,8 +1,8 @@
-## Interface: 20504
+## Interface: 30400
 ## Author: zooood
 ## Title: Zods Binding Trainer
 ## Version: v1.0
-## Notes: some notes
+## Notes: /zbt for binding audit/practice
 ## DefaultState: enabled
 ## Dependencies:
 ## OptionalDeps: 
