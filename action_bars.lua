@@ -15,7 +15,8 @@ local ACTION_TYPES = {
     [SPELL] = {
         GetText = function(spellId)
             local name = GetSpellInfo(spellId)
-            return 'Cast '.. (name or 'missing spell name')
+            local subtext = GetSpellSubtext(spellId)
+            return 'Cast '.. (name or 'missing spell name') .. ' ' .. (subtext or '')
         end
     },
     [ITEM] = {

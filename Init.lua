@@ -4,11 +4,6 @@ local util = AddonVars.util
 _G[AddonName] = Addon
 
 function Addon:OnInitialize()
-    self:ScheduleTimer("AfterLoad", 1)
-end
-
-function Addon:AfterLoad()
-	self:FetchBindings()
 end
 
 function Addon:FetchBindings()
